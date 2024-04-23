@@ -1,0 +1,541 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page {
+  max-width: 350px !important;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  height: 90vh;
+}
+
+.welcompage{
+  margin-top: 380px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.welcompage h1,p {
+  text-align: left;
+}
+
+.welcompage h1{
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.welcompage p{
+  font-family: monospace;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(146, 146, 146);
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.welcompage button{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #6D28FC;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* CSS for making Welcome Page Responsive */
+@media screen and (max-width: 1350px) {
+  .welcompage {
+    margin-top: 300px;
+  }
+
+  .welcompage h1 {
+    font-size: 30px;
+  }
+
+  .welcompage p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .welcompage button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .welcompage {
+    margin-top: 300px;
+  }
+
+  .welcompage h1 {
+    font-size: 30px;
+  }
+
+  .welcompage p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .welcompage button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .welcompage {
+    margin-top: 250px;
+  }
+
+  .welcompage h1 {
+    font-size: 24px;
+  }
+
+  .welcompage p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .welcompage button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+
+.page label{
+  color: #663AC5;
+  font-weight: 700;
+  text-align: left;
+}
+
+.areyouanagency{
+  text-align: left;
+}
+
+.page span{
+  color: red;
+}
+
+.loginbutton{
+  background: rgba(109, 40, 252, 0.5);
+  color: black;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.page {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signin_page h1{
+  font-size: 37px;
+  text-align: left ;
+  margin-bottom: 20px;
+}
+
+.signin_page p{
+  margin-bottom: 35px;
+  color: #989898;
+  font-weight: 600;
+}
+
+.signin_page button{
+  font-size: 20px;
+  font-weight: 700;
+  background: rgb(179, 179, 179);
+  transition: 0.2s ease-in-out;
+}
+
+.signin_page button:hover{
+  transition: 0.2s ease-in-out;
+  transform: scale(1.03);
+  background: #000;
+}
+
+.signin_page label{
+  font-size: 19px;
+}
+
+.signin_page input{
+  font-size: 17px;
+}
+
+.siginpage_createaccount{
+  width: 350px;
+}
+
+/* CSS for making Create Account Button on Sign In Page Responsive */
+@media screen and (max-width: 768px) {
+  .siginpage_createaccount {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .siginpage_createaccount {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .siginpage_createaccount {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .siginpage_createaccount {
+    width: 240px;
+  }
+}
+
+
+.createaccount_page{
+  margin-top: -25px;
+}
+
+
+.createaccount_page h1{
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.createaccount_page label{
+  font-size: 15px;
+}
+
+.create_radiobuttons{
+  margin-top: 7px;
+  display: flex;
+  gap: 25px;
+}
+
+.createaccount_page button{
+  margin-top: 15px;
+  font-size: 18px;
+  letter-spacing: 1.1px;
+  font-weight: 520;
+  transition: 0.2s ease-in-out;
+}
+
+.createaccount_page button:hover{
+  transform: scale(1.02);
+  transition: 0.2s ease-in-out;
+}
+
+.error-message{
+  font-size: 12px;
+  margin-top: -15px;
+  color: red;
+}
+
+.error-message2{
+  font-size: 12px;
+  margin-top: -10px;
+  color: red !important;
+}
+
+/* CSS for Making Create Account Page Responsive */
+@media screen and (max-width: 768px) {
+  .createaccount_page h1 {
+    font-size: 15px;
+  }
+
+  .createaccount_page button {
+    margin-bottom: 50px;
+    font-size: 12px;
+  }
+
+  .createaccount_page h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .createaccount_page label {
+    font-size: 10px;
+  }
+
+  .create_radiobuttons {
+    gap: 15px;
+  }
+
+  .error-message,
+  .error-message2 {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .createaccount_page {
+    margin-top: -30;
+  }
+
+  .createaccount_page h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .createaccount_page label {
+    font-size: 10px;
+  }
+
+  .create_radiobuttons {
+    gap: 15px;
+  }
+
+  .createaccount_page button {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .error-message,
+  .error-message2 {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+}
+
+
+.accountsettingspage h2{
+  font-size: 25px;
+  text-align: left;
+  margin-top: -2px;
+}
+
+.line {
+  border-top: 1px solid #ccc; 
+  margin-bottom: 20px; 
+}
+
+.gendericon_image {
+  width: 100px;
+  height: 100px; 
+  border: 2px solid black;  
+  border-radius: 50%; 
+  overflow: hidden; 
+  display: flex;
+  justify-content: start;
+}
+
+.accountsettingspage_name{
+  margin-left: 120px;
+  margin-top: -95px;
+  margin-bottom: 110px;
+}
+
+.accountsettings_para{
+  margin-top: -50px;
+  color: rgba(128, 128, 128, 0.9);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* CSS for Making Account Settings Page Responsive */
+@media screen and (max-width: 768px) {
+  .accountsettingspage h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .line {
+    margin-bottom: 15px;
+  }
+
+  .gendericon_image {
+    width: 80px;
+    height: 80px;
+    border-width: 1px;
+  }
+
+  .accountsettingspage_name {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: -65px;
+    font-size: 10px;
+    margin-bottom: 75px;
+  }
+
+  .accountsettings_para {
+    margin-top: -40px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .accountsettingspage h2 {
+    font-size: 18px;
+  }
+
+  .gendericon_image {
+    width: 60px;
+    height: 60px;
+    border-width: 1px;
+  }
+
+  .accountsettingspage_name {
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: -55px;
+    font-size: 10px;
+    margin-bottom: 65px;
+  }
+
+  .accountsettings_para {
+    margin-top: -30px;
+    font-size: 12px;
+  }
+}
+
+
+/* Add CSS for mobile view */
+@media only screen and (min-width: 768px) {
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .page {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #F7F8F9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .accountsettings_para {
+    color: rgba(128, 128, 128, 0.9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .radiobuttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+}
+
